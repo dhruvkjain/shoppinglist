@@ -1,0 +1,36 @@
+body
+{
+	text-align: center;
+	font-family: monsterrat,sans-serif;
+	background-color: black;
+	color: whitesmoke;
+}
+.btn{
+	margin: 20px;
+}
+button{
+	margin-left: 10px;
+	border-radius: 4px;
+	width: 80px;
+	font-weight: 700;
+    cursor: pointer;
+	color: black;
+	border:0;
+	border-radius: 5px;
+	padding: 3px 3px;
+	background: linear-gradient(to right, white 50%,black 50%);
+	background-size: 200%; /*put this line to comment to understand*/
+	transition: 0.5s ease-out;
+}
+button:hover
+{
+	background-position: right;/*by deafult left*/
+	color:white;
+}
+li
+{
+	margin-bottom: 10px;
+}
+div{
+	display: inline-block;
+}
